@@ -1,0 +1,20 @@
+* {
+    margin: 0;        /* លុបគម្លាតរវាងធាតុ និងធាតុចេញ (កំណត់ស្មើ ០) */
+    padding: 0;       /* លុបគម្លាតរវាងព័ត៌មានខាងក្នុង និងស៊ុម (border) ចេញ */
+    box-sizing: border-box; /* កំណត់យក width និង height ជារបស់សរុបរាប់បញ្ចូលទាំង padding និង border */
+}
+
+body {
+    font: 16px/1.6 Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; /* កំណត់ទំហំអក្សរ 16px, កម្ពស់ជួរ 1.6 និងប្រភេទ Font */
+    color: #333;               /* កំណត់ពណ៌អក្សរជាពណ៌ប្រផេះចាស់ */
+    background-color: #f9f9fb; /* កំណត់ពណ៌ផ្ទៃខាងក្រោយជាពណ៌សស្ទើរ (Off-white) */
+}
+a {
+    color: black;
+    text-decoration: none;
+    margin-right: 15px; /* បន្ថែមគម្លាតចន្លោះ Link នីមួយៗឱ្យឃ្លាតពីគ្នា */
+}
+
+a:hover {
+    color: #007bff; /* ពេលយក Mouse ទៅដាក់លើ Link វានឹងដូរជាពណ៌ខៀវ */
+}

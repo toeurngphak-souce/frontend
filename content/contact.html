@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact | Front-End Developer</title>
+        <link rel="stylesheet" href="../style/default.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="../index.html">about</a>
+                <a href="work.html">project/work</a>
+                <a href="resume.html">resume</a>
+                <a href="contact.html">contact</a>
+                 <a href="canvas.html">Multimedia</a>
+                <a href="svg.html">SVG With Chape</a>
+                 <a href="embed object iframe.html">embed object iframe</a>
+            </nav>
+        </header>
+        <main>
+            <section id="contact" class="container">
+                <h1>Get in touch</h1>
+                <p>feel free to reach out to via following form</p>
+                <form action="mailto:toeurngphak@gmail.com"method="POST"enctyp="text/plain">
+                    <div>
+                        <label for="name">Full name</label>
+                        <input type="text"id="name"name="name"required>
+                    </div>
+                    <div>
+                        <label for="email">Email Address</label>
+                        <input type="email"id="email"name="email"required
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel"id="phone"name="phone"placeholder="+010297407">
+                    </div>
+                    <div>
+                        <label for="company">Company/Organization</label>
+                        <input type="text"id="company"name="company">
+                    </div>
+                    <div class="full-width">
+                        <label for="subject">Subject</label>
+                        <input type="text"id="subject"name="subject"
+                    </div>
+                    <div class="full-width">
+                        <label for="reason">Reason for contact</label>
+                        <select id="reason"name="reason">
+                            <option value="">--Select an Option--</option>
+                            <option value="project">Work on a Project</option>
+                            <option value="job">Job Opportunity</option>
+                            <option value="collaboration">Collaboration</option>
+                            <option value="general">General inquiry</option>
+                        </select>
+                    </div>
+                    <div class="full-width">
+                        <label for="message">Your Message</label>
+                        <textarea id="message"name="message"rows="6"required></textarea>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox"id="newsletter"name="newsletter">
+                        <label for="newsletter">Subscribe me to tour newsletter</label>
+                    </div>
+                    <button type="submit">Send Message</button>
+
+                </form>
+            </section>
+            <section class="info">
+                <p>Email:your-email@example.com</p>
+                <p>Phone:+855 123 456</p>
+                <div class="social-links">
+                    <a href="https://github.com/yourusename">GitHub</a>
+                    <a href="https://linkedin.com/in/yourusename">Linkedln</a>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 my portfolio</p>
+        </footer>
+        
+    </body>
+</html>

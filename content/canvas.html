@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multimedia Showcase</title>
+    <link rel="stylesheet" href="../style/default.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="../index.html">About</a>
+        <a href="work.html">Project/Work</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+        <a href="#multimedia">Multimedia</a>
+        <a href="svg.html">SVG With Chape</a>
+         <a href="embed object iframe.html">embed object iframe</a>
+    </nav>
+</header>
+
+<main>
+    <section id="multimedia" class="multimedia">
+        <h1>Multimedia - image, audio, video, canvas, svg, embed, object, iframe</h1>
+
+        <!-- Responsive Image -->
+        <h2>Image</h2>
+        <img src="../multimedia/image/FlagOfCambodia.png"
+             srcset="
+             ../multimedia/image/FlagOfCambodiaMobile.png 480w,
+             ../multimedia/image/FlagOfCambodiaTablet.png 768w,
+             ../multimedia/image/FlagOfCambodia.png 1024w,
+             ../multimedia/image/FlagOfCambodiaLarge.png 1600w"
+             sizes="(max-width: 480px) 480px,
+                    (max-width: 768px) 768px,
+                    (max-width: 1200px) 1024px,
+                    1600px"
+             alt="Flag of Cambodia">
+        <p>Flag of Cambodia</p>
+        
+        <!-- Audio -->
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="../multimedia/audio/NokorReach.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            <a href="../multimedia/audio/NokorReach.mp3">Download NokorReach.mp3</a>
+        </audio>
+
+        <!-- Video -->
+        <h2>Video</h2>
+        <video controls width="640" height="360">
+            <source src="../multimedia/video/NationalAnthemOfCambodia.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            <a href="../multimedia/video/NationalAnthemOfCambodia.mp4">Download National Anthem Of Cambodia</a>
+        </video>
+        <p>National Anthem of Cambodia</p>
+
+        <!-- Canvas Animation -->
+        <h2>Canvas</h2>
+        <canvas id="myCanvas" width="500" height="300" style="border:1px solid black;">
+            Your browser does not support the canvas element.
+        </canvas>
+        <script>
+            const canvas = document.getElementById("myCanvas");
+            const ctx = canvas.getContext("2d");
+
